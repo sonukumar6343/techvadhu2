@@ -27,7 +27,7 @@ const WorkLikeProjectsCard = () => {
   return (
     <div className="flex flex-wrap md:flex-row justify-center gap-10">
       {data.map((item, index) => (
-        <div key={index} className="w-lg bg-white rounded-lg shadow-md p-6 text-center">
+        <div key={index} className="w-md bg-white rounded-lg shadow-md p-6 text-center">
           <div className="flex justify-center mb-10">
             <img src={item.logo} alt="Icon" className="h-30 w-30" />
           </div>
