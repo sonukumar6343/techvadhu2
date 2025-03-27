@@ -61,7 +61,7 @@ const Home = () => {
     </div>
 
     {/* image div */}
-    <div className="bg-[url('/Learners%20(9)%201.png')] bg-contain bg-no-repeat bg-center w-full md:w-1/2 h-[250px] md:h-[500px] lg:h-[700px] relative">
+    <div className="bg-[url('/Learners.png')] bg-contain bg-no-repeat bg-center w-full md:w-1/2 h-[250px] md:h-[500px] lg:h-[700px] relative">
       {/* Content inside the image */}
       <div className="border-2 rounded-2xl m-5 md:my-32 px-4 absolute top-5 md:top-20 left-5 md:left-10 w-2/3 md:w-1/3 text-center bg-white border-gray-300">
         <div className="p-3 font-medium text-lg md:text-2xl text-black">
